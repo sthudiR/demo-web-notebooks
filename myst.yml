@@ -1,0 +1,16 @@
+version: 1
+project:
+  title: Sourdough Lab
+  description: Hydration, baker's percentages and fermentation timing as editable Python that runs in your browser.
+  github: https://github.com/sthudiR/demo-web-notebooks
+  toc:
+    - file: index.md
+    - file: content/hydration.md
+    - file: content/timing.md
+    - file: content/lab.md
+site:
+  template: book-theme
+  title: Sourdough Lab
+  options:
+    style: tokens.css
+    logo_text: Sourdough Lab

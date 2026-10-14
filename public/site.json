@@ -1,0 +1,1 @@
+{"id":"demo-web-notebooks","title":"Sourdough Lab","blurb":"Hydration, baker's percentages and fermentation timing as editable Python that runs in your browser via JupyterLite.","framework":"Jupyter Book 2 (MyST) + JupyterLite","tags":["jupyter-book","myst","jupyterlite","python","notebooks"],"url":"https://sthudir.github.io/demo-web-notebooks/","thumbnail":"thumbnail.svg"}

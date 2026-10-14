@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+_build/
+site/
+.jupyterlite.doit.db
+__pycache__/
