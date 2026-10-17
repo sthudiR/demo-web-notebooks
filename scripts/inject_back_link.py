@@ -2,13 +2,21 @@
 import pathlib, sys
 
 PILL = (
-    '<div id="dw-back" style="position:fixed;left:12px;bottom:12px;z-index:100000;'
-    'display:flex;gap:6px;font:600 13px system-ui,sans-serif">'
-    '<a href="/demo-web-notebooks/" style="background:#e0a458;color:#0f1419;padding:6px 12px;'
-    'border-radius:999px;text-decoration:none">&larr; Sourdough Lab</a>'
-    '<a href="https://sthudir.github.io/demo-web-hub/" style="background:#0f1419;color:#e6edf3;'
-    'padding:6px 12px;border-radius:999px;text-decoration:none">demo-web hub</a></div>'
-    '<script>if(window.top!==window.self)document.getElementById("dw-back").remove()</script>'
+    '<style>'
+    '#dw-back{position:fixed;top:0;left:0;right:0;height:32px;z-index:100000;display:flex;align-items:center;'
+    'gap:6px;padding:0 12px;background:#0f1419;border-bottom:2px solid #e0a458;font:500 13px system-ui,sans-serif}'
+    '#dw-back a{color:#e6edf3;text-decoration:none;padding:3px 10px;border-radius:6px}'
+    '#dw-back a:hover{background:#e0a458;color:#0f1419}'
+    '#dw-back a.cur{background:#e0a458;color:#0f1419;font-weight:700}'
+    '#dw-back .sep{color:#8b98a5}'
+    'body{position:absolute!important;top:32px!important;left:0;right:0;bottom:0;height:auto!important}'
+    '</style>'
+    '<nav id="dw-back" aria-label="Site navigation">'
+    '<a href="https://sthudir.github.io/demo-web-hub/">&larr; demo-web hub</a><span class="sep">/</span>'
+    '<a href="/demo-web-notebooks/">Sourdough Lab</a><span class="sep">/</span>'
+    '<a class="cur" href="#" aria-current="page" onclick="return false">Notebook</a></nav>'
+    '<script>if(window.top!==window.self){document.getElementById("dw-back").remove();'
+    'document.body.style.cssText="top:0!important"}</script>'
 )
 
 for page in pathlib.Path(sys.argv[1]).rglob("index.html"):
