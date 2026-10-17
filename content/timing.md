@@ -21,4 +21,4 @@ print(round(ferment_hours(30), 1))
 This is a rule of thumb. Flour, starter strength and hydration all shift the numbers - always judge by the dough (risen about 50%, jiggly, domed), not the clock.
 :::
 
-<a class="btn-accent" href="../lite/lab/index.html?path=fermentation.ipynb">Run it in the notebook</a>
+<a class="btn-accent" href="lite/lab/index.html?path=fermentation.ipynb">Run it in the notebook</a>
