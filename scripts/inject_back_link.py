@@ -8,6 +8,7 @@ PILL = (
     'border-radius:999px;text-decoration:none">&larr; Sourdough Lab</a>'
     '<a href="https://sthudir.github.io/demo-web-hub/" style="background:#0f1419;color:#e6edf3;'
     'padding:6px 12px;border-radius:999px;text-decoration:none">demo-web hub</a></div>'
+    '<script>if(window.top!==window.self)document.getElementById("dw-back").remove()</script>'
 )
 
 for page in pathlib.Path(sys.argv[1]).rglob("index.html"):
