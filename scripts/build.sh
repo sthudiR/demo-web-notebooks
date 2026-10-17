@@ -9,4 +9,5 @@ mkdir -p site
 cp -r _build/html/. site/
 cp public/site.json public/thumbnail.svg site/
 .venv/bin/jupyter lite build --contents notebooks --output-dir site/lite --lite-dir _build/litedir --base-url /demo-web-notebooks/lite/
+python3 scripts/inject_back_link.py site/lite
 touch site/.nojekyll

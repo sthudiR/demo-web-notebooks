@@ -10,6 +10,9 @@ project:
     - file: content/lab.md
 site:
   template: book-theme
+  actions:
+    - title: ← demo-web hub
+      url: https://sthudir.github.io/demo-web-hub/
   title: Sourdough Lab
   options:
     style: tokens.css
