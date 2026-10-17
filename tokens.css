@@ -6,6 +6,7 @@
   --dw-radius: 10px;
   font-family: system-ui, sans-serif;
 }
+
 body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
 .dark body, html.dark body { background: var(--dw-bg); color: var(--dw-fg); }
 article a, article a:visited { color: #9a5f12; }

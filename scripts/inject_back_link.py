@@ -12,7 +12,7 @@ PILL = (
     'body{position:absolute!important;top:32px!important;left:0;right:0;bottom:0;height:auto!important}'
     '</style>'
     '<nav id="dw-back" aria-label="Site navigation">'
-    '<a href="https://sthudir.github.io/demo-web-hub/">&larr; demo-web hub</a><span class="sep">/</span>'
+    '<a href="https://sthudir.github.io/demo-web-hub/">&larr; All sites</a><span class="sep">/</span>'
     '<a href="/demo-web-notebooks/">Sourdough Lab</a><span class="sep">/</span>'
     '<a class="cur" href="#" aria-current="page" onclick="return false">Notebook</a></nav>'
     '<script>if(window.top!==window.self){document.getElementById("dw-back").remove();'

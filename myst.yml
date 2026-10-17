@@ -11,7 +11,7 @@ project:
 site:
   template: book-theme
   actions:
-    - title: "← Back to hub"
+    - title: "← All sites"
       url: https://sthudir.github.io/demo-web-hub/
   title: Sourdough Lab
   options:
