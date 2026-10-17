@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "build:myst": "BASE_URL=/demo-web-notebooks myst build --html",
-    "build": "bash scripts/build.sh"
+    "build": "bash scripts/build.sh",
+    "preview": "bash scripts/preview.sh"
   },
   "devDependencies": { "mystmd": "1.11.0" }
 }

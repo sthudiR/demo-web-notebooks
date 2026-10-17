@@ -28,4 +28,4 @@ total_water = water + starter / 2
 print(f"{total_water / total_flour:.1%}")
 ```
 
-<a class="btn-accent" href="../lite/lab/index.html?path=hydration.ipynb">Run it in the notebook</a>
+<a class="btn-accent" href="lite/lab/index.html?path=hydration.ipynb">Run it in the notebook</a>
