@@ -5,3 +5,4 @@ site/
 .jupyterlite.doit.db
 __pycache__/
 .preview/
+docs/
