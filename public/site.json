@@ -1,1 +1,26 @@
-{"id":"demo-web-notebooks","title":"Sourdough Lab","blurb":"Hydration, baker's percentages and fermentation timing as editable Python that runs in your browser via JupyterLite.","framework":"Jupyter Book 2 (MyST) + JupyterLite","tags":["jupyter-book","myst","jupyterlite","python","notebooks"],"url":"https://sthudir.github.io/demo-web-notebooks/","thumbnail":"thumbnail.svg"}
+{
+  "id": "demo-web-notebooks",
+  "title": "Sourdough Lab",
+  "blurb": "Hydration, baker's percentages and fermentation timing as editable Python that runs in your browser via JupyterLite.",
+  "framework": "Jupyter Book 2 (MyST) + JupyterLite",
+  "tags": [
+    "jupyter-book",
+    "myst",
+    "jupyterlite",
+    "python",
+    "notebooks"
+  ],
+  "url": "https://sthudir.github.io/demo-web-notebooks/",
+  "thumbnail": "thumbnail.svg",
+  "kind": "site",
+  "preview": "preview",
+  "metrics": {
+    "size": "84 MB",
+    "ready": "0.4 s",
+    "writes": "Markdown + Python",
+    "build": "42 s",
+    "lines": 90
+  },
+  "goodFor": "Books with code readers can edit and run in the browser.",
+  "notFor": "Small, fast sites: the Python lab is 84 MB."
+}
