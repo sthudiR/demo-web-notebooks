@@ -31,3 +31,6 @@ Pyodide itself is fetched at runtime from the jsDelivr CDN (v0.26.4) by the kern
 ## Base path
 Everything assumes `/demo-web-notebooks/`: `BASE_URL` for MyST, `--base-url` for JupyterLite. Content links are relative (`../lite/...`). Rename the repo => update both.
 Design tokens (`--dw-*`) are in `tokens.css`.
+
+## Licence
+Public domain (CC0). Everything here is made up for a demo; use and share it freely. See `LICENSE`.
