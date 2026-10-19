@@ -30,7 +30,7 @@ The first time you launch a notebook, the browser downloads the Python runtime (
 | **The numbers** | 84 MB · pages ready in about 0.4 s (Python loads when you open a notebook) · builds in 42 s · 90 lines of source · you write Markdown and Python |
 | **Good for** | Books with code readers can edit and run in the browser |
 | **Not for** | Small, fast sites: the Python lab is 84 MB |
-| **More** | [Source on GitHub](https://github.com/sthudiR/demo-web-notebooks) · [What can I use for…?](https://sthudir.github.io/demo-web-hub/which/) · [Back to hub](https://sthudir.github.io/demo-web-hub/) |
+| **More** | [Source on GitHub](https://github.com/sthudiR/demo-web-notebooks) · [Pick your tool](https://sthudir.github.io/demo-web-hub/which/) · [Back to hub](https://sthudir.github.io/demo-web-hub/) |
 
 Ready time: median of 3 cold loads, 17 Oct 2026, one home connection.
 :::
