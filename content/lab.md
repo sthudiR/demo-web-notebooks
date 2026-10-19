@@ -13,3 +13,5 @@ Prefer a full notebook interface? <a href="lite/lab/index.html">Open JupyterLab<
 ## While the dough rests
 
 <div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ" title="Video" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+*Placeholder video: it's here to show how embedding works in this framework.*
