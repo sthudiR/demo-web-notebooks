@@ -15,12 +15,12 @@
   "kind": "site",
   "preview": "preview",
   "metrics": {
-    "size": "84 MB",
-    "ready": "0.4 s",
+    "size": "1.9 MB",
+    "ready": "0.3 s",
     "writes": "Markdown + Python",
-    "build": "42 s",
-    "lines": 90
+    "build": "44 s",
+    "lines": 144
   },
   "goodFor": "Books with code readers can edit and run in the browser.",
-  "notFor": "Small, fast sites: the Python lab is 84 MB."
+  "notFor": "Small, fast sites: the Python lab is 82 MB."
 }

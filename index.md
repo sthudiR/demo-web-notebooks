@@ -27,10 +27,10 @@ The first time you launch a notebook, the browser downloads the Python runtime (
 | | |
 |---|---|
 | **Built with** | Jupyter Book 2 (MyST) for the pages, JupyterLite with Pyodide for the Python |
-| **The numbers** | 84 MB · pages ready in about 0.4 s (Python loads when you open a notebook) · builds in 42 s · 90 lines of source · you write Markdown and Python |
+| **The numbers** | 1.9 MB to load · pages ready in about 0.3 s (Python loads when you open a notebook) · builds in 44 s · 144 lines of source · you write Markdown and Python |
 | **Good for** | Books with code readers can edit and run in the browser |
-| **Not for** | Small, fast sites: the Python lab is 84 MB |
+| **Not for** | Small, fast sites: the Python lab is 82 MB |
 | **More** | [Source on GitHub](https://github.com/sthudiR/demo-web-notebooks) · [Pick your tool](https://sthudir.github.io/demo-web-hub/which/) · [Back to hub](https://sthudir.github.io/demo-web-hub/) |
 
-Ready time: median of 3 cold loads, 17 Oct 2026, one home connection.
+Ready time: median of 5 cold loads on one home connection, 23 Oct 2026. Size is what a first visit downloads. Build time is the median of the last 5 GitHub Actions builds and includes installing the tools.
 :::
